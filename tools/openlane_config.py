@@ -14,7 +14,7 @@ val_image_paths = '/dataset/openlane/images/validation'
 
 model_save_path = "/dataset/model/openlane"
 
-input_shape = (576,1024)
+input_shape = (240,360)
 output_2d_shape = (144,256)
 
 ''' BEV range '''
