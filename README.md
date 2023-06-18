@@ -1,3 +1,16 @@
+# result on single 3090, Ubuntu 20, cuda 11.6
+
+```
+{'f1_score': 0.5651117116621163,
+'precision': 0.6838964779914308,
+'recall': 0.4814843714408606,
+'x_error_close': 0.25393218394610845,
+'x_error_far': 0.6785732514552418,
+'z_error_close': 0.19615825120228755,
+'z_error_far': 0.6227202588181409}
+```
+
+
 # BEV-LaneDet: a Simple and Effective 3D Lane Detection Baseline 
 ## Introduction
 BEV-LaneDet is an efficient and robust monocular 3D lane detection system. First, we introduce the Virtual Camera, which unifies the intrinsic/extrinsic parameters of cameras mounted on different vehicles to ensure the consistency of the spatial relationship between cameras. It can effectively promote the learning process due to the unified visual space. Secondly, we propose a simple but efficient 3D lane representation called Key-Points Representation. This module is more suitable for representing the complicated and diverse 3D lane structures. Finally, we present a lightweight and chip-friendly spatial transformation module called Spatial Transformation Pyramid to transform multi-scale front view features into BEV features.  Experimental results demonstrate that our
